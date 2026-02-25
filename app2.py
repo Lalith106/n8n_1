@@ -6,8 +6,7 @@ import os
 # -------- CONFIG --------
 DATABRICKS_BASE_URL = "https://adb-4224005571705028.8.azuredatabricks.net/serving-endpoints/databricks-claude-sonnet-4-5/invocations"
 MODEL_NAME = "databricks-claude-sonnet-4-5"
-DATABRICKS_TOKEN =""
-#DATABRICKS_TOKEN = os.getenv("DATABRICKS_TOKEN")
+DATABRICKS_TOKEN = os.getenv("DATABRICKS_TOKEN")
 
 # -------- PAGE --------
 st.title("🤖 SSMB")
